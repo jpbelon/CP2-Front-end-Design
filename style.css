@@ -206,3 +206,82 @@ ul { list-style: none; }
   color: #1e88e5;
   font-size: 1.1rem;
 }
+.contato {
+  padding: 50px 0;
+}
+ 
+.contato-bloco {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+ 
+.info-contato {
+  flex: 1 1 250px;
+}
+ 
+.info-contato li {
+  padding: 8px 0;
+}
+ 
+.info-contato i {
+  color: #1e88e5;
+  margin-right: 8px;
+}
+ 
+.formulario {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ 
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+ 
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: none;
+  border-color: #1e88e5;
+}
+ 
+.rodape {
+  background-color: #222;
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+ 
+.rodape .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+ 
+.redes {
+  display: flex;
+  gap: 12px;
+}
+ 
+.redes a {
+  color: #ccc;
+  font-size: 1.2rem;
+  transition: 1s;
+}
+ 
+.redes a:hover {
+  color: #fff;
+}
+ 
+@media (max-width: 600px) {
+  .menu { justify-content: center; text-align: center; }
+  .lista-menu { justify-content: center; }
+  .rodape .container { justify-content: center; }
