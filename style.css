@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+::selection {
+  background-color: #1e88e5;
+  color: #fff;
+}
+
+.formulario input::placeholder,
+.formulario textarea::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.cabecalho {
+  background-color: #1e88e5;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo i { margin-right: 6px; }
+
+.lista-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.lista-menu a {
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 8px;
+  border-radius: 4px;
+  transition: 1s;
+}
+
+.lista-menu a:hover,
+.lista-menu a:focus {
+  background-color: #1565c0;
+}
+
+.lista-menu li:nth-child(odd) a {
+  text-decoration: none;
+}
